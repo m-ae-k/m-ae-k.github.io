@@ -42,7 +42,7 @@
 
 
 .nav a:hover{
-    color: #70B894;
+    color: #47919A;
     opacity: 1;
 }
 
@@ -83,6 +83,7 @@
     margin-top: 100px;
     margin-bottom: 10px;
 }
+
 
 .slide-text p {
   font-family: 'Roboto', sans-serif;
