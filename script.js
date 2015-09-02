@@ -1,5 +1,7 @@
 var main = function() {
 
+	// index.html
+
 	$('.dropdown-hover').hover( function() {
 		$('.dropdown-menu').toggle();
 	});
@@ -45,6 +47,9 @@ var main = function() {
 		pDot.addClass('active-dot');
 	});
 
+
+	// about.html
+	
 }
 
 $(document).ready(main);

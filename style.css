@@ -80,7 +80,7 @@
 
 .slide-text h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 10px;
 }
 
@@ -157,3 +157,142 @@
     width: 100%;
 }
 
+
+/* About */
+.cover-about {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-decoration: bold;
+    color: white;
+    background: url('Images/about.jpg') no-repeat;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+
+.cover-about h1 {
+    font-size: 4em;
+}
+
+
+.cover-about a {
+    color: #47919A;
+}
+
+
+.cover-about a:hover {
+    color: #ED9D90;
+    text-decoration: none;
+}
+
+
+.about-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+}
+
+
+.about-content h1 {
+    font-size: 2em;
+    color: #47919A;
+    text-align: center;
+}
+
+
+.profile {
+    height: 450px;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    border-bottom:0px;
+}
+
+
+.ruijing {
+    background: url('Images/ruijing.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+.angel {
+    background: url('Images/angel.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+.profile {
+    transition: opacity 1s ease;
+    color: white;
+}
+
+
+.profile-text {
+    display: none;
+    font-size: 1.075em;
+}
+
+
+.profile-text h2 {
+    font-size: 2em;
+}
+
+
+.profile:hover {
+    opacity: .8;
+}
+
+
+.profile:hover .profile-text {
+    display: block;
+}
+
+
+/* Contact */
+.cover-contact {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-decoration: bold;
+    color: white;
+    background: url('Images/contact.jpg') no-repeat;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+
+.cover-contact h1 {
+    font-size: 4em;
+}
+
+
+/* Contact */
+.cover-contact {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-decoration: bold;
+    color: white;
+    background: url('Images/contact.jpg') no-repeat;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+
+.cover-contact h1 {
+    font-size: 4em;
+}
+
+
+/* Idea Wall */
+.cover-ideawall {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-decoration: bold;
+    color: white;
+    background: url('Images/ideawall.png') center no-repeat;
+    background-size: cover;
+    padding: 2%;
+    margin-bottom: 1%;
+}
+
+
+.cover-ideawall h1 {
+    font-size: 4em;
+}
