@@ -1,6 +1,7 @@
 /* Entire Doc */
 
 .container {
+    font-family: 'Roboto', sans-serif;
     width: 97%;
 }
 
@@ -298,6 +299,17 @@
 }
 
 
-.qualtrics {
+.submit {
+    text-align: right;
+    display: block;
+}
+
+
+.submit a:hover {
+    text-decoration: none;
+}
+
+
+.post {
     height: 480px;
 }
