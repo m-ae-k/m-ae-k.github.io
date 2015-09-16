@@ -93,8 +93,10 @@
 
 
 .slide-img {
+    vertical-align: center;
     text-align: center;
     padding: 1%;
+    height: 450px;
 }
 
 
